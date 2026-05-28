@@ -29,19 +29,19 @@ jobs:
 
       - name: Fetch GitHub Stats
         run: |
-          curl -s -o dist/stats.svg "https://github-readme-stats.vercel.app/api?username=heimaolala&show_icons=true&bg_color=FEFAF6&title_color=E8783B&icon_color=E8783B&text_color=333333&border_color=ABAAA8&rank_icon=github"
+          curl --retry 5 --retry-delay 15 --retry-max-time 120 -s -o dist/stats.svg "https://github-readme-stats.vercel.app/api?username=heimaolala&show_icons=true&bg_color=FEFAF6&title_color=E8783B&icon_color=E8783B&text_color=333333&border_color=ABAAA8&rank_icon=github"
 
       - name: Fetch Top Languages
         run: |
-          curl -s -o dist/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=heimaolala&layout=compact&bg_color=FEFAF6&title_color=E8783B&text_color=333333&border_color=ABAAA8"
+          curl --retry 5 --retry-delay 15 --retry-max-time 120 -s -o dist/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=heimaolala&layout=compact&bg_color=FEFAF6&title_color=E8783B&text_color=333333&border_color=ABAAA8"
 
       - name: Fetch GitHub Trophy
         run: |
-          curl -s -o dist/trophy.svg "https://github-profile-trophy.vercel.app/?username=heimaolala&column=7&no-frame=true&no-bg=true&theme=flat"
+          curl --retry 5 --retry-delay 15 --retry-max-time 120 -s -o dist/trophy.svg "https://github-profile-trophy.vercel.app/?username=heimaolala&column=7&no-frame=true&no-bg=true&theme=flat"
 
       - name: Fetch Streak Stats
         run: |
-          curl -s -o dist/streak.svg "https://streak-stats.demolab.com/?user=heimaolala&background=FEFAF6&stroke=ABAAA8&ring=E8783B&fire=E8783B&currStreakNum=333333&sideNums=333333&currStreakLabel=333333&sideLabels=333333&dates=ABAAA8"
+          curl --retry 5 --retry-delay 15 --retry-max-time 120 -s -o dist/streak.svg "https://streak-stats.demolab.com/?user=heimaolala&background=FEFAF6&stroke=ABAAA8&ring=E8783B&fire=E8783B&currStreakNum=333333&sideNums=333333&currStreakLabel=333333&sideLabels=333333&dates=ABAAA8"
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
