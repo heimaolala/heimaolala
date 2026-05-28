@@ -51,3 +51,59 @@
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 </div>
+
+---
+
+### 📊 GitHub 统计 / GitHub Stats
+
+<p align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="160" src="https://github-readme-stats.vercel.app/api?username=heimaolala&show_icons=true&bg_color=FEFAF6&title_color=E8783B&icon_color=E8783B&text_color=333333&border_color=ABAAA8&rank_icon=github" alt="GitHub Stats" />
+  </a>
+  <a href="https://github-readme-streak-stats.herokuapp.com">
+    <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=heimaolala&background=FEFAF6&stroke=ABAAA8&ring=E8783B&fire=E8783B&currStreakNum=333333&sideNums=333333&currStreakLabel=333333&sideLabels=333333&dates=ABAAA8" alt="GitHub Streak" />
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=heimaolala&layout=compact&bg_color=FEFAF6&title_color=E8783B&text_color=333333&border_color=ABAAA8" alt="Top Languages" />
+  </a>
+</p>
+
+---
+
+### 🏆 GitHub 奖杯 / GitHub Trophy
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=heimaolala&column=7&no-frame=true&no-bg=true&theme=flat" alt="GitHub Trophy" />
+</p>
+
+---
+
+### 🐍 贪吃蛇 / Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heimaolala/heimaolala/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/heimaolala/heimaolala/output/snake.svg" />
+    <img src="https://raw.githubusercontent.com/heimaolala/heimaolala/output/snake.svg" alt="Snake animation" />
+  </picture>
+</p>
+
+---
+
+### 🚧 项目展示 / Projects
+
+> *精选项目即将上线，敬请期待~*  
+> *Featured projects coming soon!*
+
+---
+
+<div align="center">
+
+*"Fine-tuning myself, one commit at a time."* 🐱
+
+<img src="https://komarev.com/ghpvc/?username=heimaolala&color=E8783B&style=flat-square&label=Profile+Views" alt="Profile Views" />
+
+</div>
+
+<!-- 页脚波浪 -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=E8783B&height=120&section=footer" alt="footer wave" />
