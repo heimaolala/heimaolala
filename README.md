@@ -2,7 +2,7 @@
 
 <!-- Typing SVG Header -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi,%20I'm%20Heimaolala%20%F0%9F%91%8B;%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AF%E9%BB%91%E7%8C%AB%E6%8B%89%E6%8B%89%20%F0%9F%90%B1;DL%20%26%20LLM%20Enthusiast%20%F0%9F%A4%96;%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%26%20%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%88%B1%E5%A5%BD%E8%80%85%20%F0%9F%93%9A&font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&center=true&vCenter=true&width=700&color=E8783B" />
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi,%20I'm%20Heimaolala%20%F0%9F%91%8B;%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AFheimaolala;DL%20%26%20LLM%20Enthusiast%20%F0%9F%A4%96;%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%26%20%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%88%B1%E5%A5%BD%E8%80%85%20%F0%9F%93%9A&font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&center=true&vCenter=true&width=700&color=E8783B" />
 </a>
 
 <!-- Wave Divider -->
@@ -58,13 +58,13 @@
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=heimaolala&show_icons=true&bg_color=FEFAF6&title_color=E8783B&icon_color=E8783B&text_color=333333&border_color=ABAAA8&rank_icon=github" alt="GitHub Stats" />
+    <img height="160" src="https://raw.githubusercontent.com/heimaolala/heimaolala/output/stats.svg" alt="GitHub Stats" />
   </a>
   <a href="https://streak-stats.demolab.com">
-    <img height="160" src="https://streak-stats.demolab.com/?user=heimaolala&background=FEFAF6&stroke=ABAAA8&ring=E8783B&fire=E8783B&currStreakNum=333333&sideNums=333333&currStreakLabel=333333&sideLabels=333333&dates=ABAAA8" alt="GitHub Streak" />
+    <img height="160" src="https://raw.githubusercontent.com/heimaolala/heimaolala/output/streak.svg" alt="GitHub Streak" />
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=heimaolala&layout=compact&bg_color=FEFAF6&title_color=E8783B&text_color=333333&border_color=ABAAA8" alt="Top Languages" />
+    <img height="160" src="https://raw.githubusercontent.com/heimaolala/heimaolala/output/top-langs.svg" alt="Top Languages" />
   </a>
 </p>
 
@@ -73,7 +73,7 @@
 ### 🏆 GitHub 奖杯 / GitHub Trophy
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=heimaolala&column=7&no-frame=true&no-bg=true&theme=flat" alt="GitHub Trophy" />
+  <img src="https://raw.githubusercontent.com/heimaolala/heimaolala/output/trophy.svg" alt="GitHub Trophy" />
 </p>
 
 ---
