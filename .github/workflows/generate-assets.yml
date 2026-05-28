@@ -36,15 +36,14 @@ jobs:
 
       - name: Fetch all stats cards
         run: |
-          set -e
           fetch_svg() {
             local url="$1"
             local output="$2"
             local name="$3"
             for i in $(seq 1 5); do
               echo "[$name] Attempt $i..."
-              curl --fail --retry 3 --retry-delay 10 -s -o "$output" "$url"
-              if head -1 "$output" | grep -q '<svg\|<?xml'; then
+              curl --retry 3 --retry-delay 10 -s -o "$output" "$url" || true
+              if head -1 "$output" 2>/dev/null | grep -q '<svg\|<?xml'; then
                 echo "[$name] Valid SVG downloaded"
                 return 0
               fi
