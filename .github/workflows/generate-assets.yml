@@ -27,40 +27,9 @@ jobs:
             dist/snake.svg?color_snake=E8783B&color_dots=#ABAAA8
             dist/snake-dark.svg?palette=github-dark&color_snake=E8783B&color_dots=#ABAAA8
 
-      - name: Warm up Vercel deployments
+      - name: Fetch Streak Stats
         run: |
-          # Fire requests to wake up sleeping Vercel deployments (ignore errors)
-          curl -s -o /dev/null "https://github-readme-stats.vercel.app/api?username=heimaolala" || true
-          curl -s -o /dev/null "https://github-profile-trophy.vercel.app/?username=heimaolala" || true
-          sleep 30
-
-      - name: Fetch all stats cards
-        run: |
-          fetch_svg() {
-            local url="$1"
-            local output="$2"
-            local name="$3"
-            for i in $(seq 1 5); do
-              echo "[$name] Attempt $i..."
-              curl --retry 3 --retry-delay 10 -s -o "$output" "$url" || true
-              if head -1 "$output" 2>/dev/null | grep -q '<svg\|<?xml'; then
-                echo "[$name] Valid SVG downloaded"
-                return 0
-              fi
-              echo "[$name] Invalid response, retrying in 10s..."
-              sleep 10
-            done
-            echo "[$name] Failed after 5 attempts, generating placeholder"
-            echo '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="120"><rect width="400" height="120" fill="#FEFAF6" rx="6"/><text x="200" y="65" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#ABAAA8">Stats unavailable</text></svg>' > "$output"
-          }
-
-          fetch_svg "https://github-readme-stats.vercel.app/api?username=heimaolala&show_icons=true&bg_color=FEFAF6&title_color=E8783B&icon_color=E8783B&text_color=333333&border_color=ABAAA8&rank_icon=github" dist/stats.svg "stats"
-
-          fetch_svg "https://github-readme-stats.vercel.app/api/top-langs/?username=heimaolala&layout=compact&bg_color=FEFAF6&title_color=E8783B&text_color=333333&border_color=ABAAA8" dist/top-langs.svg "top-langs"
-
-          fetch_svg "https://streak-stats.demolab.com/?user=heimaolala&background=FEFAF6&stroke=ABAAA8&ring=E8783B&fire=E8783B&currStreakNum=333333&sideNums=333333&currStreakLabel=333333&sideLabels=333333&dates=ABAAA8" dist/streak.svg "streak"
-
-          fetch_svg "https://github-profile-trophy.vercel.app/?username=heimaolala&column=7&no-frame=true&no-bg=true&theme=flat" dist/trophy.svg "trophy"
+          curl --retry 3 --retry-delay 10 -s -o dist/streak.svg "https://streak-stats.demolab.com/?user=heimaolala&background=FEFAF6&stroke=ABAAA8&ring=E8783B&fire=E8783B&currStreakNum=333333&sideNums=333333&currStreakLabel=333333&sideLabels=333333&dates=ABAAA8"
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4

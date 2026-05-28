@@ -57,23 +57,7 @@
 ### 📊 GitHub 统计 / GitHub Stats
 
 <p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="160" src="https://raw.githubusercontent.com/heimaolala/heimaolala/output/stats.svg" alt="GitHub Stats" />
-  </a>
-  <a href="https://streak-stats.demolab.com">
-    <img height="160" src="https://raw.githubusercontent.com/heimaolala/heimaolala/output/streak.svg" alt="GitHub Streak" />
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="160" src="https://raw.githubusercontent.com/heimaolala/heimaolala/output/top-langs.svg" alt="Top Languages" />
-  </a>
-</p>
-
----
-
-### 🏆 GitHub 奖杯 / GitHub Trophy
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/heimaolala/heimaolala/output/trophy.svg" alt="GitHub Trophy" />
+  <img height="160" src="https://raw.githubusercontent.com/heimaolala/heimaolala/output/streak.svg" alt="GitHub Streak" />
 </p>
 
 ---
