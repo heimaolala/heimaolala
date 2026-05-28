@@ -1,5 +1,7 @@
 name: Generate Snake Animation
 
+# Auto-generate contribution snake SVG for profile README
+
 on:
   schedule:
     # 每天 UTC 0:00 自动运行
