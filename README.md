@@ -60,8 +60,8 @@
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img height="160" src="https://github-readme-stats.vercel.app/api?username=heimaolala&show_icons=true&bg_color=FEFAF6&title_color=E8783B&icon_color=E8783B&text_color=333333&border_color=ABAAA8&rank_icon=github" alt="GitHub Stats" />
   </a>
-  <a href="https://github-readme-streak-stats.herokuapp.com">
-    <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=heimaolala&background=FEFAF6&stroke=ABAAA8&ring=E8783B&fire=E8783B&currStreakNum=333333&sideNums=333333&currStreakLabel=333333&sideLabels=333333&dates=ABAAA8" alt="GitHub Streak" />
+  <a href="https://streak-stats.demolab.com">
+    <img height="160" src="https://streak-stats.demolab.com/?user=heimaolala&background=FEFAF6&stroke=ABAAA8&ring=E8783B&fire=E8783B&currStreakNum=333333&sideNums=333333&currStreakLabel=333333&sideLabels=333333&dates=ABAAA8" alt="GitHub Streak" />
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=heimaolala&layout=compact&bg_color=FEFAF6&title_color=E8783B&text_color=333333&border_color=ABAAA8" alt="Top Languages" />
